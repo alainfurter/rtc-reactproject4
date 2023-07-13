@@ -6,7 +6,7 @@ const ObjectViewer = ({apiObject}) => {
     );
     return (
         <div className="objectviewer">
-            <h1>Astronomical Picture of the Day</h1>
+            <h1>Astronomical Picture</h1>
             <h2>{apiObject.name}</h2>
             <div className="imageview">
                 <img src={apiObject.image_url} alt={apiObject.title} />

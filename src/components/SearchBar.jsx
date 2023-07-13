@@ -21,7 +21,6 @@ const SearchBar = ({searchUpdateCallback}) => {
     }
 
     const handleDateChange = (event) => {
-        console.log('Date change: ', event.target.value);
         if (event.target.value === '') {
             setDate(maxdate);
             event.target.value = maxdate;
